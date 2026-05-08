@@ -1,0 +1,11 @@
+# backups.conf.example
+# Copy to ~/.config/sconl/backups.conf and customize.
+# backupx reads ~/.config/sconl/backups.conf by default.
+# ─────────────────────────────────────────────────────────────────────────────
+# Format: name|method|source|dest|options
+# {LOCAL_BASE}    → ~/_ on Linux, ~/Desktop/_ on Windows
+# {RCLONE_REMOTE} → your rclone remote name (e.g. onedrive-sconl)
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Example:
+# core|sync|{LOCAL_BASE}/core|{RCLONE_REMOTE}:_/core|--backup-dir {RCLONE_REMOTE}:_archivex/core

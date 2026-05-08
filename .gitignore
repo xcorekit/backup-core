@@ -1,0 +1,8 @@
+# Personal backup config — stays local at ~/.config/sconl/backups.conf
+config/backups.conf
+config/*.conf
+!config/backups.conf.example
+
+# Logs — local only
+logs/
+*.log
