@@ -61,7 +61,7 @@ _resolve_bin() {
 }
 
 _REAL_BIN="$(_resolve_bin)"
-SPACE_DIR="$(cd "$_REAL_BIN/.." && pwd)"
+SPACE_DIR="$(cd "$_REAL_BIN/../.." && pwd)"
 XSPACE_ROOT="$(cd "$SPACE_DIR/.." && pwd)"
 
 # ─────────────────────────────────────────────────────────────────────────────
