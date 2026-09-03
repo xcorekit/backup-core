@@ -1,3 +1,4 @@
 # Personal VM definitions and machine-specific config
 config/personal.conf
 *.local
+_handoff/
